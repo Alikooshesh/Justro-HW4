@@ -7,6 +7,8 @@
 html,body{
     width: 100%;
     height: 100%;
+    margin: 0;
+    padding: 0;
 
 }
 
@@ -48,6 +50,31 @@ html,body{
     margin-top: 0.7rem;
 }
 
+.block1-left-img{
+    width: 30rem;
+}
+
+.block1-right-text{
+    width: 20rem;
+}
+
+.block1-title{
+    color: #007B5A;
+    font-size: 2.2rem;
+}
+
+.block1-title-behtar{
+    border-bottom: 0.1rem solid #007B5A;
+}
+
+.block1-text{
+    font-size: 0.8rem;
+}
+
+.block1-wave{
+    opacity: 0.5;
+}
+
 @media only screen and (min-width: 992px) {
 .myMenu{
     justify-content: center;
@@ -58,7 +85,7 @@ html,body{
 @media only screen and (max-width: 992px) {
     .header-right-div{
         position: relative;
-        left: 30%;
+        left: 25%;
     }
 
     .myMenu{
@@ -81,5 +108,16 @@ html,body{
         left: 0;
         color: #007B5A !important;
         font-size: 2rem;
+    }
+
+    .block-1{
+        display: flex;
+        flex-direction: column;
+        padding: 2rem;
+        padding-top: 0;
+    }
+
+    .block1-left-img{
+        width: 20rem;
     }
   }
