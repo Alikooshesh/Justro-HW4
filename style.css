@@ -69,6 +69,8 @@ html,body{
 
 .block1-text{
     font-size: 0.8rem;
+    text-align: justify !important;
+    text-justify: auto ;
 }
 
 .block1-wave{
@@ -87,6 +89,8 @@ html,body{
 .block2-img-right{
     width: 30%;
     height: 41rem;
+    justify-self: center;
+    align-content: center;
 }
 
 .block2-title-text{
@@ -110,6 +114,7 @@ html,body{
 
 .img-list-line{
     opacity: 0;
+    width: 0;
 }
 
 .block2-list-img{
@@ -125,6 +130,67 @@ html,body{
 
 .list-image{
     fill: #007B5A;
+}
+
+.block3-main-box{
+    border: 0.1rem solid transparent;
+    border-radius: 2rem;
+
+    -moz-box-shadow:    inset 0 0 10px #00000055;
+   -webkit-box-shadow: inset 0 0 10px #00000055;
+   box-shadow:         inset 0 0 10px #00000055;
+}
+
+.block3-title-text{
+    color: #007B5A;
+    font-size: 1.6rem;
+}
+
+.block3-dl-box{
+    padding-left: 25%;
+}
+
+.block3-dl-icon-div{
+    width: 5rem;
+}
+
+.block3-dl-btn{
+    position: absolute;
+    width: 7rem;
+    height: 2.2rem;
+    background-color: #f34c15;
+    border-radius: 50rem;
+}
+
+.block3-num-input{
+    margin-left: 5rem;
+    width: 12rem;
+    height: 2.1rem;
+    background-color: #9797975d;
+    outline: none;
+    border: 0.1rem solid rgba(0, 0, 0, 0.171);
+    border-left: 01rem solid transparent;
+    border-radius: 20rem;
+    padding-left: 1.5rem;
+}
+
+.block3-num-input::placeholder{
+    color: rgba(0, 0, 0, 0.274);
+}
+
+.block3-dl-green-btn {
+    background-color: #00CE9E;
+    width: 7rem !important;
+    height: 2.2rem;
+    border-radius: 50rem;
+}
+
+.dl-green-btn-text{
+font-size: 0.6rem;
+}
+
+.dl-green-btn-img{
+    width: 1.2rem;
 }
 
 @media only screen and (min-width: 992px) {
@@ -214,6 +280,30 @@ html,body{
     }
 
     .block2-text{
-        text-align: center;
+        direction: rtl;
+        text-align: justify;
+        text-justify: auto;
+    }
+
+    .block3-container{
+        padding: 0;
+        padding-left: 4%;
+    }
+
+    .block3-dl-box{
+        padding-left: 7%;
+    }
+
+    .block3-dl-icon-div{
+        margin-left: 35%;
+    }
+
+    .block3-direct-dl-div{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .block3-dl-green-btn{
+        margin-bottom: 1rem;
     }
   }
