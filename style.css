@@ -132,15 +132,6 @@ html,body{
     fill: #007B5A;
 }
 
-.block3-main-box{
-    border: 0.1rem solid transparent;
-    border-radius: 2rem;
-
-    -moz-box-shadow:    inset 0 0 10px #00000055;
-   -webkit-box-shadow: inset 0 0 10px #00000055;
-   box-shadow:         inset 0 0 10px #00000055;
-}
-
 .block3-title-text{
     color: #007B5A;
     font-size: 1.6rem;
@@ -231,11 +222,60 @@ font-size: 0.6rem;
     height: 18rem;
 }
 
-@media only screen and (min-width: 992px) {
-.myMenu{
-    justify-content: center;
-    align-items: flex-start;
+
+.block5-title-text{
+    color: #007B5A;
+    font-size: 1.5rem;
 }
+
+.block5-text{
+    text-align: justify;
+}
+
+.block5-img-slider{
+    height: 18rem;
+}
+
+.block5-img{
+    width: 20rem !important;
+    height: 15rem;
+}
+
+.block5-email-input{
+    margin-left: 5rem;
+    width: 20rem;
+    height: 2.1rem;
+    background-color: #9797975d;
+    outline: none;
+    border: 0.1rem solid rgba(0, 0, 0, 0.171);
+    border-left: 01rem solid transparent;
+    border-radius: 20rem;
+    padding-left: 1.5rem;
+    padding-right: 0.5rem;
+}
+
+.block5-email-input::placeholder{
+    color: rgba(0, 0, 0, 0.274);
+    direction: rtl;
+    text-align: right;
+    
+}
+
+@media only screen and (min-width: 992px) {
+    .myMenu{
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .block3-main-box{
+        border: 0.1rem solid transparent;
+        border-radius: 2rem;
+    
+        -moz-box-shadow:    inset 0 0 10px #00000055;
+       -webkit-box-shadow: inset 0 0 10px #00000055;
+       box-shadow:         inset 0 0 10px #00000055;
+    }
+
 }
 
 @media only screen and (max-width: 992px) {
@@ -343,5 +383,41 @@ font-size: 0.6rem;
 
     .block4-text-div{
         left: 0;
+    }
+
+    .block5-img-slider{
+        padding-left: 15rem;
+        overflow-x: scroll;
+    }
+
+    .block5-img{
+        width: 15rem !important;
+        height: 10rem;
+    }
+
+    .block5-email-input{
+        background-color: #fff;
+        width: 100%;
+        margin-left: 0;
+        border: 0.1rem solid rgba(0, 0, 0, 0.171);
+    }
+
+    .block5-email-btn{
+    width: 7rem;
+    height: 2.2rem;
+    background-color: #f34c15;
+    border-radius: 50rem;
+    margin-left: 25%;
+    }
+
+    .email-input{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-self: center;
+    }
+
+    .block5-email-div{
+        background-color: #E2FFFA;
     }
   }
