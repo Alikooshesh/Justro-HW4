@@ -193,6 +193,44 @@ font-size: 0.6rem;
     width: 1.2rem;
 }
 
+.block-4-div{
+    position: relative;
+}
+
+.block4-text-div{
+    position: absolute;
+    top: 5%;
+    bottom: 0;
+    height: 100%;
+    left: 20%;
+    margin-right: 0;
+    padding-right: 0;
+}
+
+.block-4-bg{
+    top: 0;
+    z-index: -1;
+}
+
+.block4-title{
+    font-size: 1.6rem;
+}
+
+.block4-amadegi-btn{
+    background-color: #f34c15;
+    width: 10rem;
+    height: 2.2rem;
+    border-radius: 5rem;
+}
+
+.ready-orange-btn-text{
+    font-size: 1.2rem;
+}
+
+.block-4-bg-mobile{
+    height: 18rem;
+}
+
 @media only screen and (min-width: 992px) {
 .myMenu{
     justify-content: center;
@@ -303,7 +341,7 @@ font-size: 0.6rem;
         flex-direction: column;
     }
 
-    .block3-dl-green-btn{
-        margin-bottom: 1rem;
+    .block4-text-div{
+        left: 0;
     }
   }
