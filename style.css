@@ -48,6 +48,7 @@ html,body{
     border: 0.15rem solid black;
     border-radius: 2rem;
     margin-top: 0.7rem;
+
 }
 
 .block1-left-img{
@@ -233,7 +234,9 @@ font-size: 0.6rem;
 }
 
 .block5-img-slider{
+    width: 99%;
     height: 18rem;
+    overflow-x: scroll;
 }
 
 .block5-img{
@@ -261,6 +264,131 @@ font-size: 0.6rem;
     
 }
 
+.footer-div-desktop{
+    position: relative;
+}
+
+.footer-bg{
+    z-index: -2;
+}
+
+.footer-text-div{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.footer-email-div{
+    position: absolute;
+    bottom: 3%;
+    margin-left: 8%;
+}
+
+.footer-social-div{
+    margin-left: 25%;
+    position: relative;
+}
+
+.social-acc-div{
+    width: 4rem;
+    height: 4rem;
+    padding-top: 0.7rem;
+    position: absolute;
+}
+
+.social-acc-div:hover{
+    cursor: pointer;
+    background-color: rgb(221, 221, 221) !important;
+}
+
+.social-acc{
+    font-size: 2.5rem;
+}
+
+.telegram-div{
+    top: 33%;
+}
+
+.instagram-div{
+    top: 15%;
+    left: 26%;
+}
+
+.twitter-div{
+    top: -2%;
+    left: 50%;
+}
+
+.footer-links-div{
+    position: absolute;
+    left: 35%;
+    bottom: 5%;
+}
+
+.footer-right-bg{
+    z-index: -1;
+}
+
+.right-bg{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.right-footer-img{
+    position: absolute;
+    width: 4rem;
+    height: 4rem;
+    left: 35%;
+    top: -10%;
+}
+
+.right-footer-text-div{
+    position: absolute;
+    width: 80%;
+    right: 10%;
+    bottom: 5%;
+}
+
+@media only screen and (max-width: 1900px) {
+    .block2-title-text{
+        font-size: 1.55rem;
+    }
+
+    .header-left-div{
+        padding-right: 10rem !important;
+    }
+
+    .block4-text-div{
+        left: 10%;
+    }
+    .social-acc-div{
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .social-acc{
+        font-size: 1.7rem;
+    }
+
+    .footer-text-div{
+        margin-right: 0 !important;
+    }
+
+    .right-footer-img{
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .right-footer-text-div{
+        width: 75%;
+        font-size: 0.65rem;
+        bottom: 1%;
+    }
+}
+
 @media only screen and (min-width: 992px) {
     .myMenu{
         justify-content: center;
@@ -279,9 +407,13 @@ font-size: 0.6rem;
 }
 
 @media only screen and (max-width: 992px) {
+    .myMenu{
+        width: 90% !important;
+    }
+
     .header-right-div{
         position: relative;
-        left: 25%;
+        left: 20%;
     }
 
     .myMenu{
@@ -338,15 +470,13 @@ font-size: 0.6rem;
 
     .block2-img-right{
         order: 2;
-        width: 100%;
+        width: 90%;
     }
 
     .block2-left-text{
-        padding-top: 5rem;
-        padding-left: 1rem;
-        padding-right: 1rem;
+        padding-top: 1rem;
         order: 3;
-        width: 100%;
+        width: 90%;
         text-align: center;
     }
 
@@ -358,9 +488,7 @@ font-size: 0.6rem;
     }
 
     .block2-text{
-        direction: rtl;
         text-align: justify;
-        text-justify: auto;
     }
 
     .block3-container{
@@ -420,4 +548,32 @@ font-size: 0.6rem;
     .block5-email-div{
         background-color: #E2FFFA;
     }
+
+    .footer-div-mobile{
+        background-color: #007F62;
+        height: auto;
+        padding-bottom: 3rem;
+    }
+
+    .social-mobile-icon-div{
+        width: 3rem;
+        height: 3rem;
+        padding-top: 0.4rem;
+        padding-right: 0.15rem;
+    }
+
+    .social-mobile-icon{
+        font-size: 2rem;
+
+    }
+
+    .footer-mobile-link{
+        font-size: 0.8rem;
+    }
+
+    .footer-mobile-logo{
+        width: 3rem;
+        height: 3rem;
+    }
+
   }
