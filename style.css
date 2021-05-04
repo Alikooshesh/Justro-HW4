@@ -407,6 +407,9 @@ font-size: 0.6rem;
 }
 
 @media only screen and (min-width: 992px) {
+    .header-div{
+        max-width: 100% !important;
+    }
     .myMenu{
         justify-content: center;
         align-items: flex-start;
