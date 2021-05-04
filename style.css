@@ -140,7 +140,12 @@ html,body{
 }
 
 .block3-dl-box{
-    padding-left: 25%;
+    padding-left: 10% !important;
+}
+
+.block3-dl-box-elements{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
 }
 
 .block3-dl-icon-div{
@@ -149,6 +154,7 @@ html,body{
 
 .block3-dl-btn{
     position: absolute;
+    bottom: 0.3px;
     width: 7rem;
     height: 2.2rem;
     background-color: #f34c15;
@@ -263,6 +269,14 @@ font-size: 0.6rem;
     direction: rtl;
     text-align: right;
     
+}
+
+.block5-email-btn{
+    position: absolute;
+    width: 7rem;
+    height: 2.2rem;
+    background-color: #f34c15;
+    border-radius: 50rem;
 }
 
 .footer-div-desktop{
@@ -514,7 +528,7 @@ font-size: 0.6rem;
     }
 
     .block3-dl-box{
-        padding-left: 7%;
+        padding-left: 7% !important;
     }
 
     .block3-dl-icon-div{
