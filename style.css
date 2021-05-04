@@ -78,6 +78,7 @@ html,body{
     opacity: 0.5;
 }
 
+
 .block2-left-text{
     width: 30%;
 }
@@ -351,6 +352,22 @@ font-size: 0.6rem;
     right: 10%;
     bottom: 5%;
 }
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 1rem;
+    left: 2rem;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: rgb(68, 68, 68);
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  
 
 @media only screen and (max-width: 1900px) {
     .block2-title-text{
